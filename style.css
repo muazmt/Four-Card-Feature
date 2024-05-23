@@ -9,7 +9,7 @@
 body{
     font-family: "Poppins", sans-serif;
     display: grid;
-    place-items: center;
+    place-content: center;
     min-height: 100vh;
     background-color: hsl(0, 0%, 98%) ;
 }
@@ -28,6 +28,7 @@ h1 {
     font-weight: 200;
     margin-bottom: 30px;
 }
+
 span {
     font-weight: 700;   
 }
@@ -39,7 +40,7 @@ span {
 .s2{
     display: flex;
     flex-direction: column;
-    gap: 24px;
+    gap: 25px;
     margin-top: 80px;
 }
 .s21{
@@ -66,7 +67,8 @@ span {
 
 .s21 h2{
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 600;
+    opacity: .9;
 }
 .s21 p {
     color: hsl(229, 6%, 66%);
@@ -79,19 +81,17 @@ span {
 }
 
 
-
 @media (min-width: 768px) {
     .con{
-        width: 615px;
-        height: 500px;
+        width: 1120px;
+        height: 760px;
     }
 
     .s1{ 
         text-align: center;
     }
     .s1 p{
-        font-size: 10px;
-        width: 315px;
+        width: 510px;
         margin: 0 auto;
     }
     .s1{
@@ -99,7 +99,6 @@ span {
         background-color: transparent;
     }
     h1 {
-        font-size: 20px;
         font-weight: 200;
         margin-bottom: 15px;
     }
@@ -108,15 +107,14 @@ span {
     }
     
     .s2{
-        height: 315px;
         display: flex;
         flex-direction: row;
-        gap: 18px;
+        gap: 25px;
         margin-top: 20px;
     }
     .s21{
-        width: 193px;
-        height: 140px;
+        width: 360px;
+        height: 257px;
         padding: 15px;
     }
     .s2a {
@@ -126,28 +124,17 @@ span {
     .s2b {
         display: flex;
         flex-direction: column;
-        gap: 18px;
+        gap: 25px;
         flex-basis: 30%;
     }
     .s2c {
         flex-basis: 30%;
         align-self: center;
     }
-    .s21 h2{
-        font-size: 13px;
-        font-weight: 600;
-    }
-    .s21 p{
-        font-size: 8px;
-        margin-top: 10px;
-        margin-bottom: 22px;
-    }
-
+    
     .s21 img {
-        width: 33px;
         align-self: end;
      }
-
 
 }
 
